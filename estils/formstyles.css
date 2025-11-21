@@ -1,0 +1,54 @@
+body {background-color: rgb(181, 174, 241);
+
+}
+
+
+header {
+background-color: rgba(255, 255, 255, 0.979);
+margin:auto 10px;
+}
+
+
+h3 {
+text-align: center;
+color: rgb(0, 0, 0);
+}
+
+
+form {
+max-width: 400px; 
+margin: 20px auto;
+border-style:double;
+border-color: rgb(255, 255, 255);
+border-radius: 30px;
+border-width: 10px;
+text-align: center;
+}
+
+
+input[type="email"],
+input[type="password"],
+input[type="checkbox"],
+input[type="button"],
+input[type="submit"],
+input[type="hidden"],
+
+textarea {
+text-align: center;
+}
+
+
+nav {
+text-align: center;    
+margin-top: 10px;
+gap: 300px;
+font-size: 20px;
+}
+
+
+footer {
+background-color:rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+text-align: center;
+border-radius: 15px;
+}

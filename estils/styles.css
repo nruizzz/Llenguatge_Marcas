@@ -1,0 +1,152 @@
+body {
+background-color: rgb(181, 174, 241);
+}
+
+
+header {
+background-color: rgba(255, 255, 255, 0.979);
+border-radius: 30px;
+}
+
+
+.enllaç:hover {
+background-color: rgb(130, 119, 233);
+}
+
+
+.cuadre {
+background-color: rgb(236, 235, 242);
+padding: 1px;
+margin-left: 100px;
+margin-right: 100px;
+border-radius: 30px;
+}
+
+
+nav {
+text-align: center;
+justify-content: center;
+margin: 20px;
+gap: 300px;
+display: flex;
+font-size: 20px;
+}
+
+
+.titol1 {
+text-align: center;
+}
+
+
+.estils {
+background-color: #ffffff;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 70px;
+border-radius: 20px;
+}
+
+
+aside {
+padding: 10px;
+background-color: rgb(255, 255, 255);
+border-radius: 40px;
+text-align: center;
+margin-top: 20px;
+}
+
+
+.aside-objecte {
+display: flex;
+align-items: center;
+gap: 200px;
+margin-left:20px;
+}
+
+
+h1 {
+color: rgb(0, 0, 0);
+}
+
+
+h2 {
+color:rgb(18, 18, 87)
+}
+
+
+.nom {
+text-align: center;
+}
+
+
+.logo {
+display: block;
+margin: 0 auto;
+border-style:double;
+border-color: rgb(218, 209, 46);
+}
+
+
+h3 {
+color:rgb(0, 0, 0);
+margin-bottom: 200px;
+margin: 20px;
+}
+
+
+h4 {
+margin-right: 125px ;
+padding-top: 30px;
+}
+
+
+.dostipus {
+display: flex;
+align-items: center;
+gap: 130px;
+}
+
+
+
+.titolaladreta {
+text-align: right;
+margin-block: 10px;
+}
+
+
+hr {
+border-width:medium; 
+border-color: rgb(255, 255, 255);
+}
+
+
+p {
+color:black;
+}
+
+
+footer {
+background-color:rgb(255, 255, 255);
+color: aliceblue;
+text-align: center;
+border-radius: 10px;
+}
+
+
+li {
+justify-content: center;
+align-items:center;
+margin-top: 20px;
+}
+
+
+.video {
+display: block;
+width: 50%;
+margin: 50px auto;
+border: 5px solid;
+border-radius: 15px;
+box-shadow: 0 4px 8px;
+height: auto;
+}
