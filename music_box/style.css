@@ -1,0 +1,153 @@
+body {
+margin: 0;
+background-color: #f0f0f0;
+color: #333;
+line-height: 1.6;
+}
+
+
+.contenidor {
+max-width: 1200px;
+margin: 20px auto;
+padding: 0 20px;
+}
+
+
+header {
+background-color: #000000;
+color: rgb(255, 255, 255);
+padding: 20px 0;
+text-align: center;
+}
+
+
+h1 {
+margin: 0;
+font-size: 2.5em;
+text-shadow: 2px 2px #000;
+}
+
+
+section {
+background-color: white;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 8px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+a {
+color: #007bff;
+text-decoration: none;
+}
+
+
+a:hover {
+text-decoration: underline;
+}
+
+
+.imatge-galeria {
+display: flex;
+flex-wrap: wrap; 
+gap: 10px;
+justify-content: center;
+margin: 20px 0;
+}
+
+
+.imatge-objecte {
+flex: 1 1 33.33%; 
+box-sizing: border-box;
+text-align: center;
+min-width: 250px; 
+}
+
+
+.imatge-objecte img {
+width: 65%;
+height: auto;
+border-radius: 25px;
+}
+
+
+.imatge-objecte strong {
+font-size: 0.9em;
+color: #000000;
+margin-top: 5px;
+font-style: italic;
+}
+
+
+.video-galeria {
+display: flex; 
+}
+
+
+.video-objecte img {
+display: flex;
+width: 100%;
+border-radius: 25px;
+}
+
+
+.video-objecte {
+padding: 20px;
+}
+
+
+.mapa-contenidor {
+height: 700px; 
+overflow: hidden;
+padding: 30px; 
+border-radius: 20px;
+}
+
+
+.mapa-objecte iframe {
+width: 100%;
+height: 100%;
+border-radius: 25px;
+}
+
+
+.mapa-objecte {
+width: 100%;
+height: 90%;
+}
+
+
+audio {
+width: 100%;
+margin-top: 15px;
+}
+
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+
+
+th, td {
+border: 1px solid #ccc;
+padding: 10px;
+text-align: left;
+}
+
+
+th {
+background-color: #000000;
+color: white;
+}
+
+
+footer {
+font-family: 'Inter', Arial, sans-serif;
+background-color: #000000;
+text-align: center;
+color: #ffffff;
+padding: 35px 0;
+}
